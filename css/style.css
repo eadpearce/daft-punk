@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: helvetica, arial, sans-serif;
+  font-size:14px;
+  background-color:black;
+}
+
+section {
+  width: 408px;
+  height: 408px;
+  margin: 0 auto;
+  border: 2px solid black;
+}
+
+.button {
+  height: 100px;
+  width: 100px;
+  background-color: black;
+  display: inline-block;
+  line-height: 100px;
+  text-align:center;
+  border: 1px solid white;
+}
+.button:hover {
+  background-color:white;
+}
+
+.row1 {
+  color: lightgreen;
+}
+.row2 {
+  color: gold;
+}
+.row3 {
+  color: pink;
+}
+.row4 {
+  color: lightblue;
+}
+
+@media only screen and (max-width: 640px) {
+  section {
+    width: 100%;
+  }
+  .button {
+    width: 25%;
+    height:25%;
+  }
+  img {
+    width: 100%;
+  }
+}
