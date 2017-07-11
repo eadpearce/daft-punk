@@ -7,10 +7,14 @@ body {
   background-color:black;
 }
 
+.header {
+  float: left;
+}
+
 section {
-  width: 408px;
+  width: 816px;
   height: 408px;
-  margin: 0 auto;
+  margin: 100px auto 0;
   border: 2px solid black;
 }
 
